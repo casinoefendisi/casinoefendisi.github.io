@@ -1,0 +1,47 @@
+.advertisement {
+    background: linear-gradient(145deg, #2b2b2b, #1a1a1a);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    display: flex; /* Flexbox kullanımı */
+    flex-direction: column; /* Elemanları dikey hizala */
+    justify-content: center; /* Dikey ortalama */
+    align-items: center; /* Yatay ortalama */
+    height: 100%; /* Kutunun tamamını kapsa */
+}
+
+.advertisement-logo img {
+    max-width: 50px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.advertisement-info h3 {
+    font-size: 1.5rem;
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+.advertisement-info p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+.advertisement-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.advertisement-btn:hover {
+    background-color: #ff4500;
+}
